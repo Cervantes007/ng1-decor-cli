@@ -1,0 +1,21 @@
+{
+  "name": "ng1-decor-cli",
+  "version": "1.0.2",
+  "description": "CLI for ng1-decor",
+  "main": "./lib/cli.js",
+  "bin": {
+    "ra": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli ng1-decor ng1-decor-cli"
+  ],
+  "author": "gsi-alejandro",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.1.0",
+    "commander": "2.11.0"
+  }
+}
