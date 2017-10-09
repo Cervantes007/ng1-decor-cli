@@ -1,8 +1,10 @@
 # ng1-decor-cli
 Complement to ng1-decor package, enable cli to scaffolding components, services, models and pipes.
 
-# How to install
+# How to install via npm
 $ npm install -g ng1-decor-cli
+
+# How to install via yarn
 $ yarn add global ng1-decor-cli
 
 # Add Components
