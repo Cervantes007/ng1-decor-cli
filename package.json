@@ -7,7 +7,6 @@
     "ra": "bin/cli.js"
   },
   "scripts": {
-//    "postinstall": "npm install -g npm-check-updates",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
