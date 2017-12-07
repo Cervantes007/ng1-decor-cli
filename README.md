@@ -6,17 +6,32 @@ $ npm install -g ng1-decor-cli
 
 $ yarn global add ng1-decor-cli
 
+# Access to cli help
+$ ra invoke --help
+
 # Add Components
-$ ra add component hero-list [-s 'css|sass|scss(default)'] [-r 'Add to route'] [-l 'Set Layout to route']
+$ ra invoke component hero-list [list]
+
+Options:
+- [--style 'set style file']
+- [--routing 'Add to route']
+- [--test 'Add test file']
+- [--rx 'convert to reactive component']
 
 # Add Services
-$ ra add component user-profile
+$ ra invoke component user-profile
 
 # Add Models
-$ ra add model users
+$ ra invoke model users
 
 # Add Pipes
-$ ra add pipe init-caps
+$ ra invoke pipe init-caps
+
+# Add Enumerables
+$ ra invoke enum sequences-types
+
+# Add Interfaces
+$ ra invoke interface user-profile
 
 # Routing
 $ ra routing list

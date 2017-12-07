@@ -203,6 +203,25 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
+ng1-decor-cli@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ng1-decor-cli/-/ng1-decor-cli-2.0.0.tgz#ef251e5521d66edfae2f9c66359035003c2f721e"
+  dependencies:
+    chalk "2.1.0"
+    cli-spinner "^0.2.6"
+    shelljs "^0.7.8"
+    yargs "^10.0.3"
+
+ng1-decor-cli@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ng1-decor-cli/-/ng1-decor-cli-2.0.1.tgz#e255b6ac17f3684798e6c21b56051a7f30090153"
+  dependencies:
+    chalk "2.1.0"
+    cli-spinner "^0.2.6"
+    ng1-decor-cli "^2.0.0"
+    shelljs "^0.7.8"
+    yargs "^10.0.3"
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
