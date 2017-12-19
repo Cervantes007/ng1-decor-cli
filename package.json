@@ -1,6 +1,6 @@
 {
   "name": "ng1-decor-cli",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "CLI for ng1-decor",
   "main": "./lib/cli.js",
   "bin": {
